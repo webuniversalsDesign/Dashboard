@@ -1,0 +1,193 @@
+.top-bar .menu-icon{
+padding: 5px;
+color: white;
+cursor: pointer;
+font-size: 35px;
+position: fixed;
+ left: 5px;
+}
+
+.start-container{
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo{
+margin: 0px;
+letter-spacing: 1px;
+color: white;
+}
+
+.top-bar{
+    position: fixed;
+display: flex;
+height: 65px;
+width: 100%;
+justify-content: space-between;
+align-items: center;
+padding: 10px 80px;
+z-index: 111;
+background-color: black;
+}
+
+
+.side-bar{
+    position: fixed;
+    overflow: hidden;
+    width: 50px;
+    height: 95vh;
+    bottom: 0px;
+    background-color: rgb(0, 0, 0);
+    transition: all 0.2s ease-in-out;
+}
+.sidetoggle{
+    width: 180px;
+}
+
+
+.main-content{
+    position: absolute;
+    left: 50px;
+    width: calc(100% - 50px);
+    padding-left:50px ;
+    padding-top: 100px;
+    transition: all 0.2s ease-in-out;
+}
+
+.maintoggle{
+    left: 180px;
+    width: calc(100% - 180px);
+}
+
+
+.menu{
+    list-style-type: none;
+    margin: 0px;
+    padding: 40px 0px;
+}
+
+.menu .items{
+    padding: 10px 0px 10px 10px;
+border-radius: 4px;
+}
+
+.items{
+    color: white;
+    background-color: black;
+    margin: 5px 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.items:hover{
+    color: black;
+    background-color: white;
+    margin: 5px 5px;
+}
+
+.items.active {
+    background-color: white;
+    color: black;
+  }
+
+.icons{
+    margin-bottom: 5px;
+}
+
+.disble-decoration{
+    text-decoration: none;
+}
+
+.resp{
+    position: absolute;
+    width: max-content;
+    left: 50px;
+}
+
+.submenu{
+    list-style-type: none;
+    padding: 5px 0px;
+}
+
+.submenu li{
+    padding: 5px 0px;
+    font-weight: 500;
+}
+
+.dropmenu{
+    height: 45px;
+    overflow: hidden;
+}
+
+
+.opensubmenu1{
+    height: 150px;
+}
+
+.opensubmenu2{
+    height: 150px;
+
+}
+
+.opensubmenu{
+    height: 150px;
+
+}
+
+
+
+.logo Img{
+    height: auto;
+    width: 40px;
+    padding: 5px 0px;
+}
+
+.top-menu-bar ul{
+padding: 0px;
+list-style-type: none;
+display: flex;
+margin: 0px;
+}
+
+.top-menu-bar ul li{
+font-weight: 500;
+margin: 0px 5px;
+padding :0px 5px;
+color: white;
+}
+
+
+
+.footer-body{
+    position: fixed;
+    left: 50px;
+    width: calc(100% - 50px);
+    bottom: 0px;
+z-index: 111;
+background-color: black;
+}
+
+.footer p{
+margin: 0px;
+text-align: center;
+font-size: 14px;
+line-height: 3;
+color: white;
+}
+
+.openmenu{
+    color: black !important;
+    background-color: white;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu-icon:hover{
+    color: black !important;
+    background-color: rgb(218, 218, 218);
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+
+.rotateArrow{
+    transform: rotate(180deg);
+}
