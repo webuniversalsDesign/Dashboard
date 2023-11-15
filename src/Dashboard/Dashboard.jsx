@@ -16,7 +16,7 @@ const Dashboard = () => {
           <Sidebar />
 
           <div className='main-content' id='mainbody'>
-            <h1> main container</h1>
+            <h1> main containe</h1>
             <h1> main container</h1>
 
           </div>
