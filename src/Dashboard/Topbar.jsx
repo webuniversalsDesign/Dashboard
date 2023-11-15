@@ -7,10 +7,10 @@ const Topbar = () => {
    const menubar= document.getElementById('mainbody')
    menubar.classList.toggle('maintoggle');
 if(menubar.classList.contains('maintoggle')){
-  document.getElementById('menustyle').classList.add('openmenu');
+  document.getElementById('menustyle').classList.add('openmenudashboard');
 
 }else{
-  document.getElementById('menustyle').classList.remove('openmenu');
+  document.getElementById('menustyle').classList.remove('openmenudashboard');
 
 }
 
